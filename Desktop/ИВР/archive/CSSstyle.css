@@ -1,0 +1,84 @@
+
+@font-face {
+        font-family:'National Cartoon';
+        font-style:bolder;
+        src: url(fonts/National Cartoon.ttf); 
+    }
+
+@font-face {
+			font-family: 'BardelinRegular';
+			src: url("/fonts/BardelinRegular/BardelinRegular.eot");
+			src: url("/fonts/BardelinRegular/BardelinRegular.eot?#iefix")format("embedded-opentype"),
+			url("/fonts/BardelinRegular/BardelinRegular.woff") format("woff"),
+			url("/fonts/BardelinRegular/BardelinRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+pih { font-family:National Cartoon; color: Black; }
+pih2 { font-family:National Cartoon; color: orange; font-size: 150px; }
+pih3 { font-family:National Cartoon; color: Red; }
+
+gih { font-family:BardelinRegular; color: black; font-size: 30px; }
+gih2 { font-family:BardelinRegular; color: black; font-size: 50px; }
+
+body
+{background: url('http://test-kb-and-gb.mcdir.ru/image/FonBlue.png');} 
+
+div.header
+{
+	width: auto;
+	height: auto;
+	text-align:center;
+}
+
+div.left
+{
+	text-align:center;
+	display: inline-block;
+	float: left;
+    clear: left;
+	width: 12%;
+	height: auto;
+	margin-left: 2%;
+	margin-right: 1%;
+	padding: 1px;
+	
+}
+
+div.log
+{
+	text-align:center;
+	float: left;
+    clear: left;
+	display: inline-block;
+	width: 12%;
+	height: auto;
+	margin-left: 2%;
+	margin-right: 3%;
+	padding: 1px;
+}
+
+div.Main
+{	
+	text-align:center;
+	position:absolute;
+	float: left;
+	width: 80%;
+	height: auto;
+	display: inline-block;
+	
+}
+
+div.footer
+{
+	float: right;
+	vertical-align:middle;
+	text-align:center;
+	width: 100%;
+	height: auto;	
+}
+
+
+
+
